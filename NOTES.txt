@@ -1,0 +1,16 @@
+PROJECT NOTES
+
+
+## Colours ##
+HEX CODE         NAME ON FIGMA            ADDITIONAL NOTES
+#E3272D        CCA_red 
+#F09B24        CCA_yellow               Used for text
+#414141        CCA_black
+#ED6024        CCA_orange
+#F7F2E4        CCA_eggshell_white       used for background
+#F0EAD1        N/A                      used as a darker shade of the egg shell colour
+
+
+## Fonts ##
+NAME             ADDITIONAL NOTES
+Montserrat       Primary Font
