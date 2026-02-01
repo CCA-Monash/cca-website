@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/logo1.png";
+import logo from "../../assets/logo1.png";
 
 const Navbar: React.FC = () => {
   return (
@@ -29,7 +29,13 @@ const Navbar: React.FC = () => {
         </li>
       </ul>
       <div className="navbar-join">
-        <NavLink to="/join">JOIN US</NavLink>
+        <a
+          href="https://clubs.msa.monash.edu/organisation/7005/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          JOIN US
+        </a>
       </div>
     </nav>
   );
