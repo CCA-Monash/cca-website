@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./SponsCard.css";
 
 type SponsCardProps = {
@@ -7,8 +7,11 @@ type SponsCardProps = {
   description: string;
 };
 
-
-export default function SponsCard({ title, logo, description }: SponsCardProps) {
+export default function SponsCard({
+  title,
+  logo,
+  description,
+}: SponsCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (

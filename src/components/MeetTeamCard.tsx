@@ -1,3 +1,4 @@
+import React from "react";
 import "./MeetTeamCard.css";
 
 type MeetTeamCardProps = {
@@ -15,4 +16,3 @@ export default function MeetTeamCard({ title, name, img }: MeetTeamCardProps) {
     </div>
   );
 }
-

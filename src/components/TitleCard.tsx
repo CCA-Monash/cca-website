@@ -1,23 +1,29 @@
+import React from "react";
 import "./TitleCard.css";
 
 type TitleCardProps = {
   title: string;
-  description: string; 
+  description: string;
   img1: string;
   img2: string;
 };
 
-export default function TitleCard({ title, description, img1, img2 }: TitleCardProps) {
+export default function TitleCard({
+  title,
+  description,
+  img1,
+  img2,
+}: TitleCardProps) {
   return (
     <div className="TitleCard">
-      <img className="img1" src={img1} />
-      
+      <img className="img1" src={img1} alt="Image 1" />
+
       <div className="titledesc">
         <h2>{title}</h2>
         <h3>{description}</h3>
       </div>
-      
-      <img className="img2" src={img2} />
+
+      <img className="img2" src={img2} alt="Image 2" />
     </div>
   );
 }
