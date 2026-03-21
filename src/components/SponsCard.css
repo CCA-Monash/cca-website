@@ -1,0 +1,40 @@
+.SponsCard {
+  width: 300px;
+  border-radius: 27px;
+  background: #ED6023;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 16px;
+  transition: height 0.3s ease;
+}
+
+.row-content {
+  display: flex;
+  align-items: center;  
+  gap: 12px;
+}
+
+.logo-image {
+  width: 20%;
+  height: auto;
+}
+
+.card-title {
+  color: white;
+  margin: 0;
+}
+
+.description {
+  max-height: 0;         
+  opacity: 0;
+  overflow: hidden;
+  color: white;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  margin-top: 8px;
+}
+
+
+.description.show {
+  max-height: 200px;    
+  opacity: 1;
+}
