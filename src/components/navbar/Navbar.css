@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+  height: 70px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 120px;
+  object-fit: contain;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a.active {
+  font-weight: 700;
+}
+
+.navbar-links a:hover {
+  color: #007bff;
+}
+
+.navbar-join .join-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-join .join-btn:hover {
+  background-color: #0056b3;
+}
+
+.navbar-join a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-join a.active {
+  font-weight: 700;
+}
+
+.navbar-join a:hover {
+  color: #007bff;
+}

@@ -1,6 +1,15 @@
 #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
+  padding-top: 90px; /* Space for fixed navbar */
   text-align: center;
 }
 

@@ -1,0 +1,110 @@
+.footer {
+  background-color: #414141;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #f7f2e4;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f09b24;
+}
+
+.footer-join a {
+  text-decoration: none;
+  color: #f7f2e4;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-join a:hover {
+  color: #f09b24;
+}
+
+.footer-newsletter {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.footer-newsletter h3 {
+  color: #f7f2e4;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.newsletter-form input {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.newsletter-form input::placeholder {
+  color: #999;
+}
+
+.newsletter-form button {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #e3272d;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #c41f24;
+}
