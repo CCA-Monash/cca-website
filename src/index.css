@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body, #root {
+  height: 100%; /* Critical: This makes the container 100% of browser height */
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -34,11 +46,6 @@ body {
   overflow-x: hidden;
 }
 
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 
 h1 {
   font-size: 3.2em;
